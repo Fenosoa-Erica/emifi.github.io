@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EMIFI</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="img/emifi.ico" rel="icon">
+
+
+  <link href="font/fontawesome/css/all.css" rel="stylesheet" />
+  <link href="font/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="font/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="font/fontawesome/css/solid.css" rel="stylesheet">
+  <link href="font/fontawesome/css/regular.css" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style-mp3.css">
+
+</head>
+
+<body>
+  <section id="hero">
+    <div class="hero-container">
+      <div class="row ">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center" data-aos="fade-down">
+          <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 section-title" id="welcome_content" data-aos="zoom-in">
+            <a href="index.html" class="hero-logo" ><img src="img/emifi.png" class="logo-emifi"
+                alt=""></a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center align-items-center" data-aos="fade-right" style="margin-bottom: 10px;">
+          <div class="pulsing"></div>
+          <div class="card-mp3">
+            <div class="card-mp3-header">
+              <div class="img-container">
+                <i class="fas fa-music fa-lg"></i>
+              </div>
+              <div class="text-song">
+                <h5 id="info_title">Album Vol 3</h5>
+                <p id="title">Asa fanopoa</p>
+              </div>
+            </div>
+
+            <div class="progress-container" id="progressContainer">
+              <span class="progress" id="progress"></span>
+            </div>
+
+            <audio src="songs/v3/ASP.mp3" id="player"></audio>
+            <div class="controls">
+              <button class="control" id="prevBtn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button class="control play" id="playBtn">
+                <i class="fas fa-play"></i>
+                <i class="fas fa-pause"></i>
+              </button>
+              <button class="control" id="nextBtn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 d-flex justify-content-center align-items-center" data-aos="fade-left" style="background: rgba(0, 0, 0, 0.5); margin-bottom: 10px;">
+          <section id="testimonials" class="testimonials"></section>
+        </div>
+        <div class="col-lg-12 d-flex justify-content-center align-items-center" data-aos="fade-up">
+          <a data-aos="zoom-in" data-aos-delay="200" href="#about" class="btn-get-started scrollto">
+            <i class="fa-solid fa-angles-down fa-2x" id="down-fa"></i>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between" id="header-l">
+      <div class="logo">
+        <a href="index.html"><img src="img/emifi.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="#about">À-propos</a></li>
+          <li><a class="nav-link scrollto " href="#featured">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+    <section id="about" class="about">
+      <div class="container">
+      </div>
+    </section>
+    <section id="featured" class="featured"></section>
+    <section id="testimonials" class="testimonials"></section>
+  </main>
+  <footer id="footer" class="contact section-bg"></footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/reader.js"></script>
+  <script src="assets/js/main-mp3.js"></script>
+
+</body>
+
+</html>
